@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<meta charset= 'UTF-8'>
+
+<head>
+    
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+    //     let n;
+    //     for(n=0; n<=5; n++){
+    //         console.log('The number is:' + n)
+    //     }
+
+        
+    
+    // let text = "";
+    // let i;
+    // for (i = 0; i < 5; i++) {
+    //     text += "The number is " + i + "<br>";
+    // }
+    // document.getElementById("demo").innerHTML = text;
+    
+
+    // ** Break chỉ thực hiện dừng biểu thức bên trong vòng for 
+    // ** for 2 lớp thì chạy xong vòng trong mới ra chạy vòng ngoài. 
+    // ** Continued sẽ chạy ngược lên lại và không chạy những hàm bên dứoi. 
+    // ** 
+    // ** (let i in) : phải dùng trong mảng chứ không thể dùng khi có 1 giá trị nào khác. 
+    // ** for in chỉ duyệt được từ trước về sau chứ không thể duyệt từ giữa sang cuối hay từ cuối sang đầu giống với for i được. 
+    // ** array[array.length] thêm vào, array.push()
+    // ** array.join
+
+//     let k;
+//     let a = prompt('Nhập Số:');
+//     if(a>0){
+//     for(k=1;k<=a;k++){
+//         document.write(k +"<br>") ;
+//     }
+// }
+
+
+let array = ["a","b","c","d"]
+let result = "";
+
+for (let i=0; i < array.length;i++){
+ result += array[i]
+ if (i!=array.length-1){
+    result+= "-"
+ }
+}
+console.log (result);
+        </script>
+
+
+
+</body>
+
